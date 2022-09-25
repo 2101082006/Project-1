@@ -22,7 +22,7 @@ Buka *Apache Netbeans* lalu _Open Project_ yang telah diekstrak tadi.
 ### Step 10 :
 Klik kanan di project *latihan-service*, lalu pilih _Build with Dependencies_. Tunggu proses Build sukses hingga ada tulisan **BUILD SUCCESS**.
 
-#Projek Spring Boot Baru
+# Projek Spring Boot Baru
 ## Step 1 : Memulai Projek Spring Boot
 Dalam spring initializr terdapat beberapa inputan yang harus diisi
 
