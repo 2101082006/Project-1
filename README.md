@@ -41,17 +41,26 @@ Kita dapat memulai menulis kode dengan menggunakan editor apa saja. Kali ini kit
 Oke, langsung saja kita buka NetBeans IDE kemudian open project, pilih dari file yang telah diekstrak tadi. Berikut adalah tampilan dari hasil generate jika di buka dengan NetBeans IDE.
 ![Screenshot (560)](https://user-images.githubusercontent.com/113502572/192134797-69672f63-eef2-4999-8866-aadd595b2167.png)
 Buat file Java Class dengan nama HelloController.java dan tulis kode seperti di bawah ini
+ 
+  package com.ibra.latihan.service;
 
-package com.bittama.accounting;
- 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
- 
-@RestController
-public class HelloController {
- 
-    @RequestMapping("/")
-    public String index() {
-        return "Hello World...";
-    }
-}
+  import org.springframework.boot.SpringApplication;
+  import org.springframework.boot.autoconfigure.SpringBootApplication;
+  import org.springframework.web.bind.annotation.GetMapping;
+  import org.springframework.web.bind.annotation.RequestParam;
+  import org.springframework.web.bind.annotation.RestController;
+
+  @SpringBootApplication
+  @RestController
+  public class LatihanServiceApplication {
+
+	 public static void main(String[] args) {
+		SpringApplication.run(LatihanServiceApplication.class, args);
+	 }
+        
+        @GetMapping("/hello")
+        public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+        return String.format("Hello %s!", name);
+  }
+  }
+
