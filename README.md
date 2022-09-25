@@ -36,3 +36,6 @@ Dalam spring initializr terdapat beberapa inputan yang harus diisi
 * Packaging: output dari project yang dikembangkan bisa berupa jar atau war
 * Java: versi java yang digunakan
 ## Step 2 : Menambahkan Kode
+Kita dapat memulai menulis kode dengan menggunakan editor apa saja. Kali ini kita menggunakan NetBeans IDE. Sebenarnya dalam NetBeans IDE sudah terdapat plugins untuk memulai Spring Boot, silakan dicoba sendiri.
+
+Oke, langsung saja kita buka NetBeans IDE kemudian open project, pilih dari file yang telah diekstrak tadi. Berikut adalah tampilan dari hasil generate jika di buka dengan NetBeans IDE.
