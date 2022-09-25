@@ -41,19 +41,7 @@ Kita dapat memulai menulis kode dengan menggunakan editor apa saja. Kali ini kit
 Oke, langsung saja kita buka NetBeans IDE kemudian open project, pilih dari file yang telah diekstrak tadi. Berikut adalah tampilan dari hasil generate jika di buka dengan NetBeans IDE.
 ![Screenshot (560)](https://user-images.githubusercontent.com/113502572/192134797-69672f63-eef2-4999-8866-aadd595b2167.png)
 Buat file Java Class dengan nama HelloController.java dan tulis kode seperti di bawah ini
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
+
 package com.bittama.accounting;
  
 import org.springframework.web.bind.annotation.RequestMapping;
