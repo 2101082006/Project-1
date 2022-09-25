@@ -35,3 +35,4 @@ Dalam spring initializr terdapat beberapa inputan yang harus diisi
 * Package Name: adalah struktur nama paket dalam project
 * Packaging: output dari project yang dikembangkan bisa berupa jar atau war
 * Java: versi java yang digunakan
+## Step 2 : Menambahkan Kode
