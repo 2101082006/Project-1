@@ -26,12 +26,12 @@ Klik kanan di project *latihan-service*, lalu pilih _Build with Dependencies_. T
 ## Step 1 : Memulai Projek Spring Boot
 Dalam spring initializr terdapat beberapa inputan yang harus diisi
 
-Project: build tool yang akan digunakan untuk mengembangkan project, bisa dipilih jenis project menggunakan maven atau gradle
-Language: bahasa pemrograman yang akan digunakan, bisa dipilih bahasa pemrograman Java, Kotlin atau Groovy
-Spring Boot: versi spring boot yang akan digunakan
-Project Metadata: merupakan fasilitas untuk penamaan paket project yang akan dikembangkan
-Group: digunakan untuk identifikasi unik yang universal untuk sebuah proyek. Meskipun ini sering kali hanya nama proyek misalnya accounting, akan sangat membantu jika menggunakan nama paket yang sepenuhnya memenuhi syarat untuk membedakannya dari proyek lain dengan nama serupa misalnya com.bittama.accounting.
-Artifact: adalah nama paket jar atau war tanpa versi. Nama dapat dipilih apa pun yang dinginkan dengan huruf kecil dan tidak ada simbol yang aneh. Dari contoh gambar di atas maka nama yang dihasilkan adalah accounting-<versi>.jar
-Package Name: adalah struktur nama paket dalam project
-Packaging: output dari project yang dikembangkan bisa berupa jar atau war
-Java: versi java yang digunakan
+* Project: build tool yang akan digunakan untuk mengembangkan project, bisa dipilih jenis project menggunakan maven atau gradle
+* Language: bahasa pemrograman yang akan digunakan, bisa dipilih bahasa pemrograman Java, Kotlin atau Groovy
+* Spring Boot: versi spring boot yang akan digunakan
+* Project Metadata: merupakan fasilitas untuk penamaan paket project yang akan dikembangkan
+* Group: digunakan untuk identifikasi unik yang universal untuk sebuah proyek. Meskipun ini sering kali hanya nama proyek misalnya accounting, akan sangat membantu jika menggunakan nama paket yang sepenuhnya memenuhi syarat untuk membedakannya dari proyek lain dengan nama serupa 8 misalnya com.bittama.accounting.
+* Artifact: adalah nama paket jar atau war tanpa versi. Nama dapat dipilih apa pun yang dinginkan dengan huruf kecil dan tidak ada simbol yang aneh. Dari contoh gambar di atas maka nama yang dihasilkan adalah accounting-<versi>.jar
+* Package Name: adalah struktur nama paket dalam project
+* Packaging: output dari project yang dikembangkan bisa berupa jar atau war
+* Java: versi java yang digunakan
